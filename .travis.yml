@@ -21,7 +21,7 @@ script:
   - cmake -DCODE_COVERAGE=ON ..
   - cmake --build . 
   # Tests (with valgrind)
-  - valgrind --leak-check=full --show-leak-kinds=all ./hello --gtest_output="xml:../doc/GoogleTestReport.xml"
+  - valgrind --leak-check=full --show-leak-kinds=all ./Hello --gtest_output="xml:../doc/GoogleTestReport.xml"
   # Code Coverage
   - lcov --directory . --capture --output-file coverage.info
   - lcov --remove coverage.info 'googletest/*' '/usr/include/*' '/usr/lib/*' -o coverage.info
