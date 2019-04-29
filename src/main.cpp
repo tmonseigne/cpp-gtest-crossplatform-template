@@ -9,17 +9,6 @@
 /// 
 ///-------------------------------------------------------------------------------------------------
 
-///-------------------------------------------------------------------------------------------------
-/// 
-/// \file main.cpp
-/// \brief main file.
-/// \author Thibaut Monseigne.
-/// \version 1.0.
-/// \date 29/04/2019.
-/// \copyright <a href="https://choosealicense.com/licenses/agpl-3.0/">GNU Affero General Public License v3.0</a>.
-/// 
-///-------------------------------------------------------------------------------------------------
-
 #include "gtest/gtest.h"
 
 #include "CHelloClass.hpp"

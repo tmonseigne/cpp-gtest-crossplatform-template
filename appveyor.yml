@@ -1,0 +1,10 @@
+version: 1.0.{build}
+image: Visual Studio 2019 Preview
+configuration: Release
+platform: x64
+install:
+- ps: git submodule --quiet update --init --recursive
+build:
+  project: hello.sln
+  parallel: true
+  verbosity: minimal
