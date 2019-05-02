@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="1" disabled="1" errors="0" timestamp="2019-05-02T13:50:34" time="0.027" name="AllTests">
+  <testsuite name="Test_HelloClass" tests="5" failures="1" disabled="1" errors="0" time="0.025">
+    <testcase name="init" status="run" result="completed" time="0.001" classname="Test_HelloClass" />
+    <testcase name="add" status="run" result="completed" time="0" classname="Test_HelloClass" />
+    <testcase name="sub" status="run" result="completed" time="0" classname="Test_HelloClass" />
+    <testcase name="falsetest" status="run" result="completed" time="0.022" classname="Test_HelloClass">
+      <failure message="D:\Git\cpp-crossplatform-ci-template\src\main.cpp:57&#x0A;Value of: obj.a == 5&#x0A;  Actual: false&#x0A;Expected: true&#x0A;Error a != 5 : a = 10&#x0A;" type=""><![CDATA[D:\Git\cpp-crossplatform-ci-template\src\main.cpp:57
+Value of: obj.a == 5
+  Actual: false
+Expected: true
+Error a != 5 : a = 10
+]]></failure>
+    </testcase>
+    <testcase name="DISABLED_disabledtest" status="notrun" result="suppressed" time="0" classname="Test_HelloClass" />
+  </testsuite>
+</testsuites>
