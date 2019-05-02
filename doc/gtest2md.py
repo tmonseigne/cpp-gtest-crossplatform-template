@@ -119,6 +119,7 @@ def generate_testcases(xml_testsuite_node):
 		elif test_status == 'notrun':
 			test_icon = '⚠️'
 			row_bg_color = '#ffeeba'
+			test_name = test_name.split("DISABLED_")[-1]
 		else:
 			test_icon = '❌'
 			row_bg_color = '#f5c6cb'
@@ -135,9 +136,9 @@ def generate_testcases(xml_testsuite_node):
 		# Without  color
 		#res += "| " + str(test_number) + " | " + test_name + fail_msg + " | " + test_execution_time + " sec | " + test_icon + " |\n"
 		res += "<tr style=\"background-color:" + row_bg_color +"\"> " +\
-				" <td tyle=\"text-align:right\">" + str(test_number) + "</td> " +\
+				" <td style=\"text-align:right\">" + str(test_number) + "</td> " +\
 				" <td>" + test_name + fail_msg + "</td> " +\
-				" <td tyle=\"text-align:right\">" + test_execution_time + " sec</td> " +\
+				" <td style=\"text-align:right\">" + test_execution_time + " sec</td> " +\
 				" <td style=\"text-align:center\">" + test_icon + "</td>\n</tr>\n"
 
 	return res + "</table>\n"
