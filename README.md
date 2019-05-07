@@ -10,3 +10,4 @@
 * License : [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) 
 * Gitemoji for commit readability : [https://gitmoji.carloscuesta.me/](https://gitmoji.carloscuesta.me/)
 * Badge maker : [https://shields.io/](https://shields.io/)
+* CII Best Practices : [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2779/badge)](https://bestpractices.coreinfrastructure.org/projects/2779) ([official template](https://github.com/coreinfrastructure/best-practices-badge))
